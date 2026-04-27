@@ -1,0 +1,8 @@
+function verficar(){
+    let residuo = numValor.value % 2;
+    if (residuo ==0){
+        divRespuesta.innerHTML = "El número es PAR"
+    } else{
+        divRespuesta.innerHTML = "El número es IMPAR"
+    }
+}
